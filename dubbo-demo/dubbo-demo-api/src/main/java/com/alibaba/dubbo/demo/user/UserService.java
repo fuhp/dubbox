@@ -19,6 +19,7 @@ package com.alibaba.dubbo.demo.user;
  * @author lishen
  */
 public interface UserService {
+	
     User getUser(Long id);
 
     Long registerUser(User user);
